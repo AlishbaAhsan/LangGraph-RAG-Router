@@ -1,0 +1,9 @@
+langgraph
+langchain_core
+langchain_openai
+langchain-community
+python-dotenv
+openai
+unstructured
+unstructured[pdf]
+chromadb
