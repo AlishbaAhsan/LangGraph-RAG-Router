@@ -3,12 +3,17 @@ A workflow that leverages LangGraph for query routing and RAG for context-aware 
 
 ## ✨ Features
 
-- **Query Categorization:** Automatically classifies queries as `weather`, `jobsite_related`, or `general`.
-- **Conditional Routing:** Directs queries to the appropriate tool based on category.
-- **Jobsite RAG:** Uses a Chroma vector database to retrieve relevant context from PDF documents for jobsite-related queries.
-- **Graph-Based Workflow:** Implements a modular, visualizable state graph for query processing.
-- **OpenAI Integration:** Uses GPT-4o for prompt-based responses.
-- **Easy Extensibility:** Add new categories, tools, or document sources with minimal code changes.
+**1.** **Query Categorization:** Automatically classifies queries as `weather`, `jobsite_related`, or `general`.
+
+**2.** **Conditional Routing:** Directs queries to the appropriate tool based on category.
+
+**3**. **Jobsite RAG:** Uses a Chroma vector database to retrieve relevant context from PDF documents for jobsite-related queries.
+
+**4.** **Graph-Based Workflow:** Implements a modular, visualizable state graph for query processing.
+
+**5.** **OpenAI Integration:** Uses GPT-4o for prompt-based responses.
+
+**6.** **Easy Extensibility:** Add new categories, tools, or document sources with minimal code changes.
 
 
   <p align="center">
